@@ -1,0 +1,130 @@
+/* HEADER STYLE */
+.header {
+  background-image: url("/img/one.jpg");
+  background-repeat: nonno-repeat;
+  background-size: cover;
+  height: 450px;
+  color: #fff;
+}
+
+.header__light {
+  background-color: rgb(0,0,0,0.3);
+  height: 450px;
+}
+
+.header__light img {
+  width: 80px;
+}
+
+.header__light ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header__light li {
+  float: right;
+}
+
+.header__light li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header__light li a:hover {
+  color: red;
+  transition: color 300ms ease-in-out;
+}
+
+.header__title {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  text-align: center;
+}
+.header__content {
+}
+
+.header__title h1 {
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.header__title span {
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+
+.header__switch {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+}
+.header__on {
+  position: absolute;
+  z-index: 2; /* put .green-box above .dashed-box */
+  background: #FF4136;
+  width: 85%;
+  left: 10%;
+  top: 85%;
+  height: 7em;
+  opacity: 0.9;
+  border-radius: 20px;
+}
+
+.header__on .header__input--one {
+  width: 85%;
+}
+
+.header__on .header__input--two {
+  width: 90%;
+}
+.header__submit {
+  width: 95%;
+  height: 45%;
+  border-radius: 20px;
+  color: #333;
+  text-align: center;
+  letter-spacing: 5px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.header__submit:hover {
+  background-color: red;
+  transition: background-color 300ms ease-in-out;
+}
+@media (min-width: 575.98px) {
+  .header {
+    height: 600px;
+    background-size: cover;
+  }
+  .header__light {
+    height: 600px;
+  }
+  .header__title {
+    padding-top: 15%;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .header {
+    height: 750px;
+    background-size: cover;
+  }
+  .header__light {
+    height: 750px;
+  }
+  .header__title {
+    padding-top: 25%;
+  }
+  .header__title {
+    padding-top: 10%;
+  }
+}
+
+/* Midddle page */
